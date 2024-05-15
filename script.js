@@ -4,26 +4,22 @@ a = 5 + 5 + '5';
 console.log(a);
 
 // 2
-let email = 'romankaptar82@gmail.com';
+const email = 'romankaptar82@gmail.com';
 console.log(email.includes('@'));
 console.log(email.length);
 
-// let my;
-// let name;
-// let is;
-
-// let fullName = `${my}, ${name}, ${is}`;
-// console.log(fullName);
 
 
-let FullName;
-FullName = 'my ' + 'name ' + 'is ' + 'Viktor';
+// 3
+const my = 'My';
+const name = 'name';
+const is = 'is';
+const FullName = 'my' + ' ' + 'name' + ' ' + 'is' + ' ' + 'Roman';
 console.log(FullName);
 
 
 
 
-let UserName;
-let = 300;
-let payment = alert('Дякуємо, Олександро! До сплати 300 гривень');
-console.log('Дякуємо, Олександро! До сплати 300 гривень');
+let UserName = 'Roman';
+let payment = 300;
+alert('Дякуємо, Олександро! До сплати ${payment} гривень');
